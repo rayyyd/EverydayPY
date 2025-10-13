@@ -18,4 +18,6 @@ export const SIZES = {
     medium: 24,
     large: 28,
     extraLarge: 32,
+    XXL: 36,
+    XXXL: 40,
 } as const;

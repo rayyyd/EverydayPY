@@ -16,8 +16,8 @@ export default function _layout() {
             borderTopWidth: 0,
             position: "absolute",
             elevation: 0,
-            height: 60,
-            paddingBottom: 8,
+            height: 50,
+            paddingBottom: 0,
         },
     }}
     >
