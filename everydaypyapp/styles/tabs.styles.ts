@@ -167,6 +167,14 @@ export const walletStyles = StyleSheet.create({
         alignItems: 'center',       // vertically centers items
         gap: 10,  
     },
+    twoColRightFirst: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignContent: 'center',
+        alignItems: 'center',
+        gap: 0,
+    },
     fundsText: {
         fontSize: SIZES.extraSmall,
         fontWeight: "400",
@@ -180,14 +188,14 @@ export const walletStyles = StyleSheet.create({
         color: COLORS.black,
     },
     OverviewCard: {
-        width: 175,
-        height: 175,
+        width: '47%',
+        aspectRatio: 1,
         padding: SIZES.atom,
         borderRadius: SIZES.atom,
         backgroundColor: COLORS.white,
         alignItems: 'center',
         justifyContent: 'center',
-        margin: SIZES.atom,
+        margin: SIZES.subatomic,
       
         // make the box visible
         borderWidth: 1,
@@ -201,4 +209,5 @@ export const walletStyles = StyleSheet.create({
         // keep ripple inside rounded corners
         overflow: 'hidden',
       },
+      
 })
